@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526018861E4299AC00E4363C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526018851E4299AC00E4363C /* AppDelegate.swift */; };
+		526018881E4299AC00E4363C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526018871E4299AC00E4363C /* ViewController.swift */; };
+		5260188B1E4299AC00E4363C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526018891E4299AC00E4363C /* Main.storyboard */; };
+		5260188D1E4299AC00E4363C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5260188C1E4299AC00E4363C /* Assets.xcassets */; };
+		526018901E4299AC00E4363C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5260188E1E4299AC00E4363C /* LaunchScreen.storyboard */; };
+		5260189B1E4299AC00E4363C /* Fastlane_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260189A1E4299AC00E4363C /* Fastlane_TestTests.swift */; };
+		526018A61E4299AC00E4363C /* Fastlane_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526018A51E4299AC00E4363C /* Fastlane_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526018971E4299AC00E4363C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5260187A1E4299AC00E4363C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526018811E4299AC00E4363C;
+			remoteInfo = "Fastlane-Test";
+		};
+		526018A21E4299AC00E4363C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5260187A1E4299AC00E4363C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526018811E4299AC00E4363C;
+			remoteInfo = "Fastlane-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		526018821E4299AC00E4363C /* Fastlane-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fastlane-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526018851E4299AC00E4363C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526018871E4299AC00E4363C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5260188A1E4299AC00E4363C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5260188C1E4299AC00E4363C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5260188F1E4299AC00E4363C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526018911E4299AC00E4363C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526018961E4299AC00E4363C /* Fastlane-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fastlane-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5260189A1E4299AC00E4363C /* Fastlane_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fastlane_TestTests.swift; sourceTree = "<group>"; };
+		5260189C1E4299AC00E4363C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526018A11E4299AC00E4363C /* Fastlane-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fastlane-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526018A51E4299AC00E4363C /* Fastlane_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fastlane_TestUITests.swift; sourceTree = "<group>"; };
+		526018A71E4299AC00E4363C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5260187F1E4299AC00E4363C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526018931E4299AC00E4363C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5260189E1E4299AC00E4363C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526018791E4299AC00E4363C = {
+			isa = PBXGroup;
+			children = (
+				526018841E4299AC00E4363C /* Fastlane-Test */,
+				526018991E4299AC00E4363C /* Fastlane-TestTests */,
+				526018A41E4299AC00E4363C /* Fastlane-TestUITests */,
+				526018831E4299AC00E4363C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526018831E4299AC00E4363C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526018821E4299AC00E4363C /* Fastlane-Test.app */,
+				526018961E4299AC00E4363C /* Fastlane-TestTests.xctest */,
+				526018A11E4299AC00E4363C /* Fastlane-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526018841E4299AC00E4363C /* Fastlane-Test */ = {
+			isa = PBXGroup;
+			children = (
+				526018851E4299AC00E4363C /* AppDelegate.swift */,
+				526018871E4299AC00E4363C /* ViewController.swift */,
+				526018891E4299AC00E4363C /* Main.storyboard */,
+				5260188C1E4299AC00E4363C /* Assets.xcassets */,
+				5260188E1E4299AC00E4363C /* LaunchScreen.storyboard */,
+				526018911E4299AC00E4363C /* Info.plist */,
+			);
+			path = "Fastlane-Test";
+			sourceTree = "<group>";
+		};
+		526018991E4299AC00E4363C /* Fastlane-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5260189A1E4299AC00E4363C /* Fastlane_TestTests.swift */,
+				5260189C1E4299AC00E4363C /* Info.plist */,
+			);
+			path = "Fastlane-TestTests";
+			sourceTree = "<group>";
+		};
+		526018A41E4299AC00E4363C /* Fastlane-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				526018A51E4299AC00E4363C /* Fastlane_TestUITests.swift */,
+				526018A71E4299AC00E4363C /* Info.plist */,
+			);
+			path = "Fastlane-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526018811E4299AC00E4363C /* Fastlane-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526018AA1E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-Test" */;
+			buildPhases = (
+				5260187E1E4299AC00E4363C /* Sources */,
+				5260187F1E4299AC00E4363C /* Frameworks */,
+				526018801E4299AC00E4363C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fastlane-Test";
+			productName = "Fastlane-Test";
+			productReference = 526018821E4299AC00E4363C /* Fastlane-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526018951E4299AC00E4363C /* Fastlane-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526018AD1E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-TestTests" */;
+			buildPhases = (
+				526018921E4299AC00E4363C /* Sources */,
+				526018931E4299AC00E4363C /* Frameworks */,
+				526018941E4299AC00E4363C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526018981E4299AC00E4363C /* PBXTargetDependency */,
+			);
+			name = "Fastlane-TestTests";
+			productName = "Fastlane-TestTests";
+			productReference = 526018961E4299AC00E4363C /* Fastlane-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		526018A01E4299AC00E4363C /* Fastlane-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526018B01E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-TestUITests" */;
+			buildPhases = (
+				5260189D1E4299AC00E4363C /* Sources */,
+				5260189E1E4299AC00E4363C /* Frameworks */,
+				5260189F1E4299AC00E4363C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526018A31E4299AC00E4363C /* PBXTargetDependency */,
+			);
+			name = "Fastlane-TestUITests";
+			productName = "Fastlane-TestUITests";
+			productReference = 526018A11E4299AC00E4363C /* Fastlane-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5260187A1E4299AC00E4363C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tigerspike;
+				TargetAttributes = {
+					526018811E4299AC00E4363C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					526018951E4299AC00E4363C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 526018811E4299AC00E4363C;
+					};
+					526018A01E4299AC00E4363C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 526018811E4299AC00E4363C;
+					};
+				};
+			};
+			buildConfigurationList = 5260187D1E4299AC00E4363C /* Build configuration list for PBXProject "Fastlane-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526018791E4299AC00E4363C;
+			productRefGroup = 526018831E4299AC00E4363C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526018811E4299AC00E4363C /* Fastlane-Test */,
+				526018951E4299AC00E4363C /* Fastlane-TestTests */,
+				526018A01E4299AC00E4363C /* Fastlane-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526018801E4299AC00E4363C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526018901E4299AC00E4363C /* LaunchScreen.storyboard in Resources */,
+				5260188D1E4299AC00E4363C /* Assets.xcassets in Resources */,
+				5260188B1E4299AC00E4363C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526018941E4299AC00E4363C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5260189F1E4299AC00E4363C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5260187E1E4299AC00E4363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526018881E4299AC00E4363C /* ViewController.swift in Sources */,
+				526018861E4299AC00E4363C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526018921E4299AC00E4363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260189B1E4299AC00E4363C /* Fastlane_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5260189D1E4299AC00E4363C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526018A61E4299AC00E4363C /* Fastlane_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526018981E4299AC00E4363C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526018811E4299AC00E4363C /* Fastlane-Test */;
+			targetProxy = 526018971E4299AC00E4363C /* PBXContainerItemProxy */;
+		};
+		526018A31E4299AC00E4363C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526018811E4299AC00E4363C /* Fastlane-Test */;
+			targetProxy = 526018A21E4299AC00E4363C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526018891E4299AC00E4363C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5260188A1E4299AC00E4363C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5260188E1E4299AC00E4363C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5260188F1E4299AC00E4363C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526018A81E4299AC00E4363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526018A91E4299AC00E4363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526018AB1E4299AC00E4363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fastlane-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		526018AC1E4299AC00E4363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fastlane-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		526018AE1E4299AC00E4363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fastlane-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fastlane-Test.app/Fastlane-Test";
+			};
+			name = Debug;
+		};
+		526018AF1E4299AC00E4363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fastlane-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fastlane-Test.app/Fastlane-Test";
+			};
+			name = Release;
+		};
+		526018B11E4299AC00E4363C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fastlane-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fastlane-Test";
+			};
+			name = Debug;
+		};
+		526018B21E4299AC00E4363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fastlane-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerspike.Fastlane-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fastlane-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5260187D1E4299AC00E4363C /* Build configuration list for PBXProject "Fastlane-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526018A81E4299AC00E4363C /* Debug */,
+				526018A91E4299AC00E4363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526018AA1E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526018AB1E4299AC00E4363C /* Debug */,
+				526018AC1E4299AC00E4363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		526018AD1E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526018AE1E4299AC00E4363C /* Debug */,
+				526018AF1E4299AC00E4363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		526018B01E4299AC00E4363C /* Build configuration list for PBXNativeTarget "Fastlane-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526018B11E4299AC00E4363C /* Debug */,
+				526018B21E4299AC00E4363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5260187A1E4299AC00E4363C /* Project object */;
+}
